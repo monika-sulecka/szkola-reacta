@@ -17,8 +17,9 @@ export const Primary: Story = {
     label: 'Click me!',
   },
 };
-// export const Secondary: Story = {
-//   args: {
-//     label: 'click me!',
-//   },
-// };
+export const Disabled: Story = {
+  args: {
+    label: 'click me!',
+    disabled: true,
+  },
+};

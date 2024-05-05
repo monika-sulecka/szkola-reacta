@@ -7,7 +7,7 @@ function App() {
   return (
     <>
      <Text label="Hello Amigos"/>
-     <Button label="Click me" onClick={() => alert("Hey!")} />
+     <Button label="Click me" onClick={() => alert("Hey!")}/>
     
     </>
   )
